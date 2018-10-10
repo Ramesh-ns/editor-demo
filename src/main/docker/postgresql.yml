@@ -1,0 +1,11 @@
+version: '2'
+services:
+    editor-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/editor/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=editor
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

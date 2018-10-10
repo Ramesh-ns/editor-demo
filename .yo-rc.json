@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.factly.editor"
+    },
+    "jhipsterVersion": "5.4.2",
+    "applicationType": "monolith",
+    "baseName": "editor",
+    "packageName": "com.factly.editor",
+    "packageFolder": "com/factly/editor",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODExNTlhMzg4ZGZhYzA5YzYxYmRlZDY2NzczNDJjOTk1YWNkMWU4OWUwOTlhYzEyYmFlODEwMzIyYmU3N2Q0OTYyNjA3NWEwMzQ2MmI3YTgwMTJlZGI5YmJiMDhkYjVmODU3MjQ0ZmJkMTVmYzM1ZGZkNTdkYjVjYWMzNTI5ZDc=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}
