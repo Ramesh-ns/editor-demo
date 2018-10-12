@@ -2,6 +2,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { EditorSharedModule } from 'app/shared';
+import { QuillEditorModule } from 'ngx-quill-editor';
 import {
     ArticleComponent,
     ArticleDetailComponent,
@@ -15,7 +16,7 @@ import {
 const ENTITY_STATES = [...articleRoute, ...articlePopupRoute];
 
 @NgModule({
-    imports: [EditorSharedModule, RouterModule.forChild(ENTITY_STATES)],
+    imports: [EditorSharedModule, QuillEditorModule, RouterModule.forChild(ENTITY_STATES)],
     declarations: [
         ArticleComponent,
         ArticleDetailComponent,

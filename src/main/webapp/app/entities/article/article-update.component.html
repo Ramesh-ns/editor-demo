@@ -16,8 +16,11 @@
                 </div>
                 <div class="form-group">
                     <label class="form-control-label" for="field_message">Message</label>
-                    <input type="text" class="form-control" name="message" id="field_message"
-                        [(ngModel)]="article.message" />
+                    <!--<input type="text" class="form-control" name="message" id="field_message"
+                        [(ngModel)]="article.message" />-->
+
+
+                    <quill-editor [(ngModel)]="article.message" name="message"></quill-editor>
                 </div>
 
             </div>
